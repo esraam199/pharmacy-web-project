@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html long="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shefaa Pharmacy</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../Pharmacy_Shefaa/css_style.css">
+    
+
+  </head>
+
+
+  <body style="background-color: #E7E5DF;">
+     
+    
+    <!--Nav Bar-->
+    <nav class="navbar " style="height: 90px; background-color: #393E41;">
+      <a class="navbar-brand mx-5"  href="#" >
+        <img src="../Pharmacy_Shefaa/photos/Sh_logo.png" width="45" height="45" class="d-inline-block align-top" alt="" loading="lazy">
+                <span class="font-weight-bolder" style="color: #44BBA4; font-size:25px;">Shefaa Pharmacy</span>   
+      </a>
+    </nav>
+
+
+    <!--Container-->   
+    <div class="container-sm my-4" id="contain">
+
+      <h1 class="head">Sign in</h1>
+
+      <form id="login"  class="form-signin"    onsubmit="return check_login()">
+        <div class="col-sm-6 " id="cssform">
+          <div class="row">
+            <input type="text" class="form-control" placeholder="User Name" required id="UserName">
+          </div>
+          <div class="row">
+            <input type="password" class="form-control my-4" id="inputPassword2" placeholder="Password" required>  
+          </div>
+          <div class="row">
+            <button type="submit" id="but" class="btn mb-2"><span style="color: #393E41; font-weight: bold;">Log in</span> </button>
+          </div>
+        </div>
+      </form>
+
+
+
+
+
+    </div>  
+   
+
+    <footer class="bg-dark text-center text-lg-start">
+
+      <a class="navbar-brand mx-5" href="#" >
+        <img src="../Pharmacy_Shefaa/photos/Sh_logo.png" width="45" height="45" class="d-inline-block align-top" alt="" loading="lazy">
+                <span class="font-weight-bolder" style="color: #44BBA4; font-size:25px;">Shefaa Pharmacy</span>   
+                <p class="text-light">© 2020 Copyright</p>
+      </a>
+  
+    </footer>
+
+
+    
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/bootstrap-icons/font/bootstrap-icons.css"></script>
+    <script src="javaScript.js"></script>
+
+
+  </body>
+</html>
